@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<appProperties xmlns="http://schemas.mathworks.com/matlab/app/2012/appProperties" signature="E185D65D122C6084236E4BD1FCFCA0932875DB9C">
+
+  <entryPoint>LensSystem3D</entryPoint>
+
+  <name>LensSystem3D</name>
+
+  <version>4.42</version>
+
+  <createdByMATLABRelease>(R2021a)</createdByMATLABRelease>
+
+  <GUID>81e015db-90f1-483d-b8d6-d87845229b3e</GUID>
+
+  <summary>Trace rays of light through a lens system in 3D.</summary>
+
+  <description>Application for tracing rays through a system of spherical lenses in three dimensions, without approximating paraxial rays or infinitely thin lenses.</description>
+
+  <author>
+    <name>Oscar Lundqvist Engelmark</name>
+    <contact>oskar.engelmark@gmail.com</contact>
+    <organization></organization>
+  </author>
+
+  <supportedPlatforms/>
+
+  <requiredProducts>
+    <product identifier="1" name="MATLAB" version="9.10"/>
+  </requiredProducts>
+
+  <numFiles>11</numFiles>
+
+  <created>2021-06-13T19:38:48Z</created>
+
+  <appEntries>
+    <appFile>/VerticalPlane.m</appFile>
+    <appFile>/SystemTrace.m</appFile>
+    <appFile>/refIndex.m</appFile>
+    <appFile>/FocalLength.m</appFile>
+    <appFile>/FileNameWindow.mlapp</appFile>
+    <appFile>/SphLens.m</appFile>
+    <appFile>/LensSystem3D.mlapp</appFile>
+    <appFile>/CardinalPts.m</appFile>
+    <appFile>/DisplaySystem.m</appFile>
+    <appFile>/LensTrace.m</appFile>
+    <appFile>/SpotDiagram.m</appFile>
+  </appEntries>
+
+</appProperties>
