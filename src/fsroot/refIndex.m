@@ -10,9 +10,9 @@ function n = refIndex(lambda,material)
             B1 = .6961663;
             B2 = .4079426;
             B3 = .8974794;
-            C1 = .0684043;
-            C2 = .1162414;
-            C3 = 9.896161;
+            C1 = .0684043^2;
+            C2 = .1162414^2;
+            C3 = 9.896161^2;
         case 'N-BK7 (SCHOTT)'
             B1 = 1.03961212;
             B2 = 0.231792344;
@@ -40,9 +40,9 @@ function n = refIndex(lambda,material)
             return;
     end
     
-    N = 1 + B1*lambda.^2 ./ (lambda.^2 - C1^2) + ...
-            B2*lambda.^2 ./ (lambda.^2 - C2^2) + ...
-            B3*lambda.^2 ./ (lambda.^2 - C3^2);
+    N = 1 + B1*lambda.^2 ./ (lambda.^2 - C1) + ...
+            B2*lambda.^2 ./ (lambda.^2 - C2) + ...
+            B3*lambda.^2 ./ (lambda.^2 - C3);
     N = sqrt(N);
     
     n = mean(N);
